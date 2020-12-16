@@ -1,0 +1,28 @@
+#myContent .frame h2,#myContent .frame p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#myContent .frame h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#myContent .frame #summary{
+    width: 70vw;
+}
+#myContent a{
+    color:blue;
+}
+#myContent a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+#myContent img{
+    margin-bottom: 20px;
+}
+
+#myContent p{
+    text-align: justify;
+}
