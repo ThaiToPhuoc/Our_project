@@ -1,16 +1,20 @@
-<div class="container-fluid bg-light">
-  <div class="container">
-    <div class="text-center" >
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.
-          With supporting text below as a natural lead-in to additional content.
-          With supporting text below as a natural lead-in to additional content.
-          With supporting text below as a natural lead-in to additional content.
-        </p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+<div class="container">
+  <div class="text-center" >
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.
+        With supporting text below as a natural lead-in to additional content.
+        With supporting text below as a natural lead-in to additional content.
+        With supporting text below as a natural lead-in to additional content.
+      </p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-light">
+  <div class="container pt-4">
+
       <div class="row">
         <div class="card-deck">
           <div class="card">
@@ -107,7 +111,5 @@
 
     </div>
   </div>
-
-
 </div>
 

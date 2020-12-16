@@ -17,6 +17,6 @@ class Banner
 
     public function getData()
     {
-        return Queries::getBanner();
+        return Queries::getBaner();
     }
 }
