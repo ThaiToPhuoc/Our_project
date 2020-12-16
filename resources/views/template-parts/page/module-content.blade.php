@@ -1,32 +1,63 @@
-<div class="container padding" id="myContent">
-    <div class="frame">
-        <h2>Our lastest post</h2>
-        <div id="summary" class="container">
-            <p>Artificial intelligence (AI), is intelligence demonstrated by machines, unlike the natural intelligence 
-                displayed by humans and animals. Leading AI textbooks define the field as the study of "intelligent agents": 
-                any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.
-                [3] Colloquially, the term "artificial intelligence" is often used to describe machines (or computers) that mimic "cognitive" 
-                functions that humans associate with the human mind, such as "learning" and "problem solving".[4]
-            </p>
-        </div>
-        
+<div class="container">
+  <div class="card text-center">
+    <div class="card-body">
+      <h1 class="card-title">{{ $data->content[3]->title }}</h1>
+      <p class="card-text">{{ $data->content[3]->content }}</p>
+      <a href="#" class="btn btn-info">Go somewhere</a>
     </div>
-    <div class="row text-center padding">
-        <div class="col-xs-12 col-sm-6 col-md-4 ">
-            <img src="{{$data->content[0]->urlimg}}" height="300">	
-            <a href="{{$data->content[0]->url}}"><h3>{{$data->content[0]->title}}</h3></a>
-            <p>{{$data->content[0]->content}}</p>					
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-4">
+      <div class="row">
+        <div class="col-3 ">
+          <img src="{{ $data->content[0]->image }}" alt="Los Angeles">
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="{{$data->content[1]->urlimg}}" height="300">		
-            <a href="{{$data->content[1]->url}}"><h3>{{$data->content[1]->title}}</h3></a>
-            <p>{{$data->content[1]->content}}</p>					
+        <div class="col-9">
+          <div class="card text-white bg-warning  mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">{{ $data->content[0]->title }}</h5>
+              <p class="card-text">{{ $data->content[0]->content }}</p>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-12 col-md-4">
-            <img src="{{$data->content[2]->urlimg}}" height="300">	
-            <a href="{{$data->content[2]->url}}"><h3>{{$data->content[2]->title}}</h3></a>
-            <p>{{$data->content[2]->content}}</p>					
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row">
+        <div class="col-4 ">
+          <img src="{{ $data->content[1]->image }}" alt="Los Angeles">
         </div>
-    </div>	
-    <hr class="my-4">	
+        <div class="col-9">
+          <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">{{ $data->content[1]->title }}</h5>
+              <p class="card-text">{{ $data->content[1]->content }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row">
+
+        <div class="col-10">
+          <div class="card text-white bg-danger  mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">{{ $data->content[2]->title }}</h5>
+              <p class="card-text">{{ $data->content[2]->content }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 ">
+          <img src="{{ $data->content[2]->image }}" alt="Los Angeles">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 </div>
