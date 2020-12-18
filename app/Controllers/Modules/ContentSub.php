@@ -1,22 +1,20 @@
 <?php
 
 namespace App\Controllers\Modules;
-
 use App\Services\Queries;
 
-class Banner
+class ContentSub
 {
     public function dataModule($module)
     {
-        $banner = $this->getData();
+        $subcontent = $this->getData();
         return (object) [
             'module' => $module,
-            'banner' => $banner
+            'subcontent' => $subcontent
         ];
     }
-
-    public function getData()
+    protected function getData()
     {
-        return Queries::getBaner();
+        return Queries::getSubContent();
     }
 }

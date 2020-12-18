@@ -1,22 +1,18 @@
 <?php
 
 namespace App\Controllers\Modules;
-
 use App\Services\Queries;
-
-class Banner
+class Info
 {
     public function dataModule($module)
     {
-        $banner = $this->getData();
         return (object) [
             'module' => $module,
-            'banner' => $banner
+            'info' => $this->getData()
         ];
     }
-
-    public function getData()
+    protected function getData()
     {
-        return Queries::getBaner();
+        return Queries::getInfo();
     }
 }

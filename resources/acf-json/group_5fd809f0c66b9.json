@@ -1,0 +1,86 @@
+{
+    "key": "group_5fd809f0c66b9",
+    "title": "banner custom field",
+    "fields": [
+        {
+            "key": "field_5fd80a0e568b1",
+            "label": "title",
+            "name": "title",
+            "type": "text",
+            "instructions": "write your banner title here!",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "banner title",
+            "placeholder": "banner title",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fd80a46fcc2a",
+            "label": "image",
+            "name": "image",
+            "type": "image",
+            "instructions": "write your banner image here!",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5fd80a99fcc2b",
+            "label": "description",
+            "name": "description",
+            "type": "textarea",
+            "instructions": "write your banner description here!",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "banner_code"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1607994049
+}
